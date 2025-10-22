@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.home-wrapper {
+  background-image: url("../../assets/image 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+}
+
+.div-1 h1 {
+  color: #f5f5f5;
+  max-width: 80%;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-size: 42px;
+}
+.div-1 p {
+  color: #ffffff;
+  border: 2px solid #0f2f76;
+
+  padding: 8px 20px;
+}
+
+button {
+  background-color: #0f2f76;
+  /* width: 183px; */
+  /* height: 62px; */
+  padding: 10px 20px;
+  color: #ffffff;
+  border: none;
+}
+.home-wrapper img {
+  width: 93%;
+}
+/* .scroll{
+    display: flex;
+    align-items: center;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    padding: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    text-align: center;
+    gap: 1rem;
+    background-color: #f9f5f5;
+} */
+
+.scroll::-webkit-scrollbar {
+  height: 6px; 
+}
+.scroll::-webkit-scrollbar-thumb {
+  background: #ccc; 
+  border-radius: 10px;
+}
+
+.scroll > * {
+  min-width: 300px; 
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 24px;
+  padding: 10px;
+  overflow-x: auto; 
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  gap: 1rem;
+  white-space: nowrap; 
+}
+
+.scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.card-item {
+  /* flex: 0 0 auto; */
+  min-width: 400px; 
+  height: 200px;
+  margin-top: 100px;
+
+}
+
+.card-position{
+  position: relative;
+}
+
+.card-position-top{
+  position: absolute;
+  left: 20px;
+  top: -25px;
+  background-color: #0F2F76;
+  width: 66px;
+  height: 66px;
+  /* display: flex;
+  flex-direction: column; */
+  border-radius: 50%;
+  text-align: center;
+}
+.congregation {
+  background-image: url("../../assets/image 5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.hd {
+  /* text-align: center; */
+  color: #222222;
+  /* size: 16px; */
+  /* line-height: 25px; */
+}
+.pg {
+  color: #000000;
+  /* text-align: center; */
+  /* size: 16px; */
+  line-height: 25px;
+  /* margin-left: 10%;
+    margin-right: 10%; */
+}
+.pastor {
+  margin-left: 10%;
+}
+.events {
+  /* align-items: center; */
+  color: white;
+  /* margin-top: 3%; */
+  /* justify-content: center; */
+  /* margin-left: 40%; */
+  /* margin-bottom: 21%; */
+}
+.view {
+  /* margin-left: 45%; */
+  text-align: center;
+  margin-top: 3%;
+  color: #f5f5f5;
+}
+.images {
+  background-image: url("../../assets/image 3.png");
+  background-image: url("../../assets/image 4.png");
+  background-image: url("../../assets/image 6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2%;
+  /* height: 100vh; */
+}
+
+.img-1{
+  background-image: url("../../assets/img-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-2{
+  background-image: url("../../assets/img-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-3{
+  background-image: url("../../assets/img-3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  @media (max-width: 700px) {
+    .div-1 h1 {
+      min-width: 100%;
+      font-size: 31px;
+    }
+  }
+  .btn1{
+    background-color: #0F2F76;
+    border: none;
+  }
+  .btn2{
+    background-color: #0f2f76;
+    border: none;
+  }
+  .btn3{
+    background-color: #0f2f76;
+    border: none;
+    
+  }

@@ -1,0 +1,105 @@
+.contact{
+    background-image: url("../../assets/image 10.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.ig-img{
+    background-color: #23F023;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.contact-main{
+    background-image: url("../../assets/rectangle-for-contact.svg");
+    background-repeat: no-repeat;
+    height: 547px;
+}
+.contact-main-section-1{
+    padding: 10px;
+}
+
+.contact-form{
+    /* border: 1px solid red; */
+}
+.contact-form  h6{
+    font-size: 16px;
+    font-weight: 700;
+}
+.contact-form  label{
+   /* color: #011C2A; */
+   font-weight: 400;
+   font-size: 13px;
+}
+.contact-input-size{
+width: 278px;
+height: 55px;
+border: none;
+border-bottom: 1px solid #8D8D8D;
+outline: none;
+text-decoration: double;
+}
+
+.contact-form  input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.contact-form   input[type="radio"]:checked::before {
+    content: "✔";
+    display: block;
+    /* color: white; */
+    width: 20px;
+    height: 20px;
+    background-color: #000D17;
+    border-radius: 100%;
+    font-size: 10px;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -60%);
+}
+
+
+.contact-form-textarea{
+/* width: 278px; */
+height: 55px;
+border: none;
+border-bottom: 1px solid #8D8D8D;
+outline: none;
+text-decoration: double;
+}
+
+.textarea label{
+    color: #8D8D8D;
+    font-weight: 500;
+    font-size: 12px;
+}
+textarea::placeholder{
+    color: #8D8D8D;
+}
+.form-btn{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media(max-width:764px){
+    .form-btn button{
+       min-width: 100%;
+    }
+}

@@ -1,0 +1,71 @@
+.give{
+    background-image: url("../../assets/image 7.png");
+    /* height: 100vh; */
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.give .gv{
+    color: white;
+    text-align: center;
+    /* padding-top: 150px; */
+    /* margin-left: 10%; */
+}
+.gt{
+    color: white;
+    text-align: center;
+    padding-top:70px ;
+    line-height: 1.5;
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 24px;
+}
+.bb{
+    text-align: center;
+    color:#23F023 ;
+}
+/*  */
+.grp-img-1{
+    background-image: url("../../assets/image 8.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grp-img-2{
+    background-image: url("../../assets/image 9.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 70vw;
+}
+
+.grp-img-2-content{
+    /* padding-bottom: 110px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* color: white; */
+}
+.grp-img-3{
+    background-image: url("../../assets/image 11.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

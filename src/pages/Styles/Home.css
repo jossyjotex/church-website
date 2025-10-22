@@ -1,0 +1,72 @@
+.background{
+    background-image: url('../../assets/image 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}
+.background .text{
+    size: 60px;
+    line-height: 90px;
+    font-weight: 800;
+    color: #f5f5f5;
+    width: 656px;
+    height: 180px;
+    top: 136px;
+    left: 100px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 7%;
+}
+.home-wrapper{
+    display: flex;
+    justify-content: center;
+    box-shadow: none;
+}
+.home-wrapper .image{
+    margin-left: 45%;
+    max-width: 50%;
+}
+.heading{
+    text-align: center;
+    margin-top: 5%;
+}
+.pg{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 21%;
+    size: 16px;
+    line-height: 25px;
+}
+.pastor{
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.background2{
+    background-image: url('../../assets/image 5.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin-top: 5%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3%;
+}
+.background2 .event{
+    color: white;
+    margin-top: 20%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.background2 .event .calender{
+    margin-bottom: 3%;
+    justify-content: space-between;
+    margin-right: 4px;
+    
+}
+
+
